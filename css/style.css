@@ -1,0 +1,104 @@
+/* Thiết lập bảng mã ký tự */
+@charset "utf-8";
+
+/* Thiết lập reset cho các thẻ mặc định của HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính của trang */
+#container {
+    position: relative;
+    width: 1000px; /* Độ rộng của container */
+    margin: 0 auto; /* Canh giữa container */
+}
+
+/* Banner */
+#banner {
+    float: left;
+    width: 1000px;
+    height: 150px;
+    margin-bottom: 2px;
+    background-color: #91ABE8;
+}
+
+/* Phần main (bao gồm left và right) */
+#main {
+    float: left;
+    width: 1000px;
+    height: 500px;
+}
+
+/* Cột trái */
+#left {
+    float: left;
+    width: 152px;
+    height: 500px;
+    background-color: #D4D3E7;
+}
+
+/* Cột phải */
+#right {
+    float: left;
+    width: 848px;
+    height: 500px;
+    background-color: #D4D3E7;
+}
+
+/* Footer */
+#footer {
+    clear: both; /* Xóa các float trước đó */
+    width: 1000px;
+    height: 100px;
+    background-color: #636466;
+    margin-top: 2px;
+}
+
+/* Phần sản phẩm */
+#sanpham {
+    float: left;
+    width: 150px;
+    height: 220px;
+    border: 1px solid #E425AE;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: transform 0.3s ease-in-out; /* Áp dụng hiệu ứng chuyển động cho thuộc tính transform */
+}
+
+/* Khi người dùng hover (nhấp) vào phần tử sản phẩm */
+#sanpham:hover {
+    transform: scale(1.05); /* Phóng to phần tử lên 105% khi hover vào */
+}
+
+/* Tên sản phẩm */
+#sanpham_ten {
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    color: #1909EC;
+    font-weight: bold;
+}
+
+/* Giá sản phẩm */
+#sanpham_gia {
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    color: #E70B0B;
+    font-weight: bold;
+}
+
+/* Hình sản phẩm */
+#sanpham_hinh {
+    height: 170px;
+    text-align: center;
+}
+
+/* Căn giữa hình ảnh trong phần sản phẩm */
+#sanpham_hinh img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+	
