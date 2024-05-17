@@ -1,4 +1,4 @@
--<?php
+<?php
 
 include("../class/clslogin.php");
 $p = new login();
